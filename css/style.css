@@ -1,0 +1,60 @@
+
+/*============================= 
+FRAMEWORK SETUP
+=================================*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a,a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,ol,ul,input,button{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+/*============================= 
+HEADER AREA CSS 
+=================================*/
+header{
+    background: #223047;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #c1c1c1;
+}
+
+header .hero-text p{
+    color: #97a4be;
+}
+header .hero-image img{
+    margin-bottom: -130px;
+}
+
+/* SERVICES AREA CSS */
+.service-section{
+    background: #dddddd;
+    padding: 100px 0;
+}
+.service-text h2::after{
+    content: "";
+    display: block;
+    height: 5px;
+    margin-top: 50px;
+    width: 10%;
+    background-color: #00fff0;
+    margin: 0 auto;
+    margin-top: 50px;
+}
