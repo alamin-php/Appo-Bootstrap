@@ -12,6 +12,9 @@ a,a:hover{
     list-style: none;
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 h1,h2,h3,h4,h5,h6,p,a,ol,ul,input,button{
     margin: 0;
     padding: 0;
@@ -42,6 +45,12 @@ header .hero-text p{
 header .hero-image img{
     margin-bottom: -130px;
 }
+header .btn-bars {
+	background: no-repeat;
+	color: #fff;
+	font-size: 30px;
+}
+
 
 /* SERVICES AREA CSS */
 .service-section{
@@ -76,16 +85,51 @@ header .hero-image img{
     color: #233148;
 }
 
-/* COMPANY INFO CSS */
+/* START INFO SECTION CSS */
+
+.info{
+    padding: 50px 0;
+}
+.info .row{
+    background: #323a4d;
+}
+.info .info-left{
+    /* height: 400px; */
+}
 .info .info-right{
+    background: #f5f6fa;
+    padding: 100px 0;
+    padding-left: 100px;
 }
-.info .info-right h2{
-    font-size: 30px;
-    padding: 0 10px;
-    width: 40%;
+
+/* START APP SECTION CSS */
+.app-section{
+    padding: 50px 0;
 }
-.info .info-right p{
-    font-size: 14px;
-    color: #97a4be;
-    width: 45%;
+.app-top{
+    padding-bottom: 50px;
+}
+
+.app-middle{
+}
+.app-middle .right-side{
+}
+.app-middle .right-side ul{
+}
+.app-middle .right-side li{
+    margin: 10px 0;
+    padding: 15px 10px;
+    box-shadow: 5px 5px 5px 5px #555555;
+}
+.app-middle .right-side li a{
+    color: #233148;
+    font-size: 17px;
+}
+.app-middle .right-side li {
+    padding: 20px 15px;
+    background: #ffff;
+    margin: 10px 0;
+    box-shadow: 0px 5px 5px 1px #ddd;
+    border-radius: 5px;
+    color: #233148;
 }
