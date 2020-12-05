@@ -1,7 +1,132 @@
-/* Teblate Layout  */
-@media only screen and (max-width:768px){
+/* Nagigation area */
+@media(max-width:768px){
 
 }
-@media only screen and (max-width:576px){
+@media(max-width:576px){
+    .mt-5, .my-5 {
+        margin-top: 2rem !important;
+    }
+    .hero{
+        text-align: center;
+    }
+    .hero-image {
+        float: none !important;
+        margin-top: 3rem;
+    }
+}
+@media(max-width:480px){
+}
+
+@media(max-width:320px){
+    .hero{
+        text-align: center;
+    }
+    .btn-area button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .hero-image {
+        margin-top: 1rem;
+    }
+    header .hero-image img {
+        width: 258px;
+        margin-bottom: -100px;
+    }
+}
+
+/* Services Area */
+
+@media(max-width:992px){
+
+}
+@media(max-width:768px){
+
+}
+@media(max-width:576px){
+    .service-text h2{
+        margin-top: 50px !important;
+    }
+    .service-text h2::after{
+        width: 25%;
+    }
+    .service .box {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:480px){
+}
+
+@media(max-width:320px){
+    .service-text h2::after{
+        width: 30%;
+    }
+    .service-text h2{
+        font-size: 25px;
+    }
+}
+
+/* Company Info Area */
+
+@media(max-width:1200px){
+    .info .info-right h2 {
+        font-size: 30px;
+        padding: 15px 0px;
+        width: 100%;
+        margin: 0 !important;
+    }
+    .info .info-right p {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+@media(max-width:992px){
+
+}
+@media(max-width:768px){
+
+}
+@media(max-width:576px){
+    .info-left {
+        height: 230px;
+    }
+    .info .info-right p {
+        width: 100%;
+    }
+    .info .info-right{
+        text-align: center;
+        padding: 20px;
+    }
+    .pl-5, .px-5 {
+        padding-left: 0rem !important;
+    }
+
+}
+@media(max-width:480px){
+}
+
+@media(max-width:320px){
+
+}
+/* App Area */
+
+@media(max-width:1200px){
+
+}
+@media(max-width:992px){
+
+}
+@media(max-width:768px){
+
+}
+@media(max-width:576px){
+    .app-left {
+        text-align: center !important;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:480px){
+}
+
+@media(max-width:320px){
 
 }

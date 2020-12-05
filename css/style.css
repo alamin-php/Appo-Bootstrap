@@ -45,7 +45,7 @@ header .hero-image img{
 
 /* SERVICES AREA CSS */
 .service-section{
-    background: #dddddd;
+    background: #fff;
     padding: 100px 0;
 }
 .service-text h2::after{
@@ -57,4 +57,35 @@ header .hero-image img{
     background-color: #00fff0;
     margin: 0 auto;
     margin-top: 50px;
+}
+.service{
+    margin-top: 50px;
+}
+.service .box img {
+    width: 100px;
+	height: auto;
+	margin: 10px auto;
+}
+.service .box h3{
+    font-size: 17px;
+    color: #233148;
+    margin: 15px auto;
+}
+.service .box p{
+    font-size: 14px;
+    color: #233148;
+}
+
+/* COMPANY INFO CSS */
+.info .info-right{
+}
+.info .info-right h2{
+    font-size: 30px;
+    padding: 0 10px;
+    width: 40%;
+}
+.info .info-right p{
+    font-size: 14px;
+    color: #97a4be;
+    width: 45%;
 }
