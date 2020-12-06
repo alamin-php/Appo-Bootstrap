@@ -1,63 +1,92 @@
-
 /*============================= 
 FRAMEWORK SETUP
 =================================*/
+
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
 }
-a,a:hover{
+
+a,
+a:hover {
     list-style: none;
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-h1,h2,h3,h4,h5,h6,p,a,ol,ul,input,button{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+input,
+button {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Dosis', sans-serif;
 }
+
 
 /*============================= 
 HEADER AREA CSS 
 =================================*/
-header{
+
+header {
     background: #223047;
 }
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-	color: #ffffff;
-}
-.navbar-light .navbar-nav .nav-link {
-	color: #ffffff;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: #c1c1c1;
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
 }
 
-header .hero-text p{
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c1c1c1;
+}
+
+header .hero-text p {
     color: #97a4be;
 }
-header .hero-image img{
+
+header .hero-image img {
     margin-bottom: -130px;
 }
+
 header .btn-bars {
-	background: no-repeat;
-	color: #fff;
-	font-size: 30px;
+    background: no-repeat;
+    color: #fff;
+    font-size: 30px;
 }
 
 
 /* SERVICES AREA CSS */
-.service-section{
+
+.service-section {
     background: #fff;
     padding: 100px 0;
 }
-.service-text h2::after{
+
+.service-text h2::after {
     content: "";
     display: block;
     height: 5px;
@@ -67,64 +96,79 @@ header .btn-bars {
     margin: 0 auto;
     margin-top: 50px;
 }
-.service{
+
+.service {
     margin-top: 50px;
 }
+
 .service .box img {
     width: 100px;
-	height: auto;
-	margin: 10px auto;
+    height: auto;
+    margin: 10px auto;
 }
-.service .box h3{
+
+.service .box h3 {
     font-size: 17px;
     color: #233148;
     margin: 15px auto;
 }
-.service .box p{
+
+.service .box p {
     font-size: 14px;
     color: #233148;
 }
 
+
 /* START INFO SECTION CSS */
 
-.info{
+.info {
     padding: 50px 0;
 }
-.info .row{
+
+.info .row {
     background: #323a4d;
 }
-.info .info-left{
+
+.info .info-left {
     /* height: 400px; */
 }
-.info .info-right{
+
+.info .info-right {
     background: #f5f6fa;
     padding: 100px 0;
     padding-left: 100px;
 }
 
+
 /* START APP SECTION CSS */
-.app-section{
-    padding: 50px 0;
-}
-.app-top{
+
+.app-section {}
+
+.app-top {
     padding-bottom: 50px;
 }
 
-.app-middle{
-}
-.app-middle .right-side{
-}
-.app-middle .right-side ul{
-}
-.app-middle .right-side li{
+.app-middle {}
+
+.app-middle .right-side {}
+
+.app-middle .right-side ul {}
+
+.app-middle .right-side li {
     margin: 10px 0;
     padding: 15px 10px;
     box-shadow: 5px 5px 5px 5px #555555;
 }
-.app-middle .right-side li a{
+
+.app-middle .right-side li a {
     color: #233148;
     font-size: 17px;
 }
+
+.app-middle .left-side img {
+    margin-bottom: -100px;
+}
+
 .app-middle .right-side li {
     padding: 20px 15px;
     background: #ffff;
@@ -132,4 +176,96 @@ header .btn-bars {
     box-shadow: 0px 5px 5px 1px #ddd;
     border-radius: 5px;
     color: #233148;
+}
+
+
+/* APP BOTTOM CSS */
+
+.app-bottom {
+    background: #f5f6fa;
+}
+
+.app-bottom .left-side {
+    margin-top: 200px;
+    text-align: right;
+}
+
+.app-bottom ul li {
+    padding: 5px;
+}
+
+.app-bottom ul li i {
+    background: #00fff0;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+
+/* Video Area CSS */
+
+.video-section {
+    background: #223047;
+    text-align: center;
+    padding: 80px 0;
+    color: #fff;
+}
+
+.video-section h4 {
+    margin: 40px 0px;
+}
+
+.video-section p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.download-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+
+/* DOWNLOAD SECTION */
+
+.download-section h2 {
+    padding: 15px 0;
+}
+
+.download-section p {
+    padding: 20px 0;
+}
+
+
+/* QUOTA SECTION */
+
+.quota-section {
+    background: #223047;
+    padding: 60px 0;
+    text-align: center;
+    color: #00fff1;
+}
+
+.quota-section p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* APP ADD SECTION */
+
+.app-add-section .left-side {
+    float: right;
+}
+
+.app-add-section .right-side {
+    margin-top: 200px;
+}
+
+.right-side h2 {
+    padding-bottom: 20px;
+}
+
+.app-add-section .right-side p {
+    padding: 20px 0;
 }
