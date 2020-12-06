@@ -63,7 +63,9 @@ header {
 .navbar-light .navbar-nav .nav-link:hover {
     color: #c1c1c1;
 }
-
+.hero-text {
+	margin: 65px auto auto 20px;
+}
 header .hero-text p {
     color: #97a4be;
 }
@@ -269,3 +271,68 @@ header .btn-bars {
 .app-add-section .right-side p {
     padding: 20px 0;
 }
+
+/* ADD SECTION CSS */
+.app-add-section {
+	padding: 40px 0;
+	background: #f5f6fa;
+}
+.app-add-section .play-store {
+	background: url(../img/add/playStore-bg.png);
+	background-size: cover;
+	width: 171px;
+	height: 50px;
+}
+.app-add-section .app-store {
+	background: url(../img/add/iStore-bg.png);
+	background-size: cover;
+	width: 171px;
+	height: 50px;
+}
+.app-add-section .get-app {
+	position: absolute;
+	bottom: -57px;
+	left: -46px;
+}
+
+/* TOP-Footer CSS */
+.footer-top-section {
+	padding: 50px 0;
+}
+.subscribe-section {
+	padding: 50px 0;
+}
+.subscribe-section h2 {
+	padding: 30px 0;
+}
+.subscribe-section p {
+	padding: 20px 0;
+}
+.subscribe-section input {
+	width: 400px;
+	padding: 8px 6px;
+	border: none;
+	background: #ddd;
+}
+.subscribe-section input[type="submit"] {
+    width: 100px;
+    background: #00fff1;
+}
+.footer-bottom-section {
+	background: #223047;
+	color: #fff;
+}
+.footer-bottom-section ul{
+    text-align: right;
+}
+.footer-bottom-section li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+.footer-bottom-section li a{
+    color: #ffffff;
+}
+.footer-bottom-section p{
+    padding: 20px 10px;
+}
+

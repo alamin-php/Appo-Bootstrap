@@ -1,3 +1,93 @@
 @media only screen and (min-width:200px) and (max-width:768px){
-    
+    .hero {
+        text-align: center;
+    }
+    .hero-text {
+        margin: 0;
+        margin-top: 10px;
+    }
+    header .col-md-3 {
+        display: none;
+    }
+    .hero .btn-area {
+        margin-bottom: 50px;
+    }
+    .service-text h2 {
+        font-size: 25px;
+        margin-top: 76px !important;
+    }
+    .service-text h2::after {
+        margin-top: 30px;
+        width: 15%;
+    }
+    .card.box {
+        margin-bottom: 10px;
+    }
+    .info .info-left {
+        height: 200px;
+    }
+    .info .info-right {
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .info h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .app-top .left-side {
+        text-align: center !important;
+    }
+    .app-top .right-side {
+        margin-top: 30px;
+    }
+    .app-middle .left-side img {
+        margin-bottom: 0;
+    }
+    .app-bottom .left-side {
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .app-add-section .right-side {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .app-add-section .get-app {
+        left: 118px;
+    }
+    .app-add-section .btn-area {
+        margin-bottom: 20px;
+    }
+    .footer-top-section .col-md-3 {
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        padding: 8px 0;
+    }
+    .footer-top-section .col-md-3:last-child {
+        border-bottom: 0px solid #ddd;
+    }
+    .subscribe-section {
+        padding: 0;
+    }
+    .subscribe-section input {
+        width: 70%;
+    }
+    .subscribe-section form {
+        margin: 10px auto;
+    }
+    .quota-section p {
+        width: 100%;
+    }
+    .footer-bottom-section ul{
+        text-align: center;
+    }
+    .footer-bottom-section .col-md-6{
+        text-align: center;
+    }
+    .footer-bottom-section p {
+        padding: 10px 0;
+    }
+    .footer-bottom-section li {
+        padding: 10px;
+    }
 }
